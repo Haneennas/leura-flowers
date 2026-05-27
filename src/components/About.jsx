@@ -6,7 +6,7 @@ function About() {
       <h1 className="heading"> <span> about </span> us </h1>
       <div className="row">
         <div className="video-container">
-          <video src="about-vid.mp4" loop autoPlay muted playsInline></video>
+          <video src="/about-vid.mp4" loop autoPlay muted playsInline></video>
         </div>
         <div className="content">
           <h3>Why Choose Us?</h3>
