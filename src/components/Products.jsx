@@ -1,4 +1,9 @@
 import React from 'react'
+// استدعاء الصور بشكل صحيح وآمن في React
+import product1 from '../../public/product 1.jpeg'
+import product2 from '../../public/product 2.jpeg'
+import product3 from '../../public/product 3.jpg'
+import product4 from '../../public/product 4.jpg'
 
 function Products() {
   return (
@@ -6,10 +11,11 @@ function Products() {
       <h1 className="heading"> Latest <span>Products</span> </h1>
       <div className="box-container">
 
+        {/* المنتج الأول */}
         <div className="box">
           <span className="discount">-10%</span>
           <div className="image">
-            <img src="/product 1.jpeg" alt="Flower" />
+            <img src={product1} alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -22,10 +28,11 @@ function Products() {
           </div>
         </div>
 
+        {/* المنتج الثاني */}
         <div className="box">
           <span className="discount">-15%</span>
           <div className="image">
-            <img src="/product 2.jpeg" alt="Flower" />
+            <img src={product2} alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -38,10 +45,11 @@ function Products() {
           </div>
         </div>
 
+        {/* المنتج الثالث */}
         <div className="box">
           <span className="discount">-20%</span>
           <div className="image">
-            <img src="/product 3.jpg" alt="Flower" />
+            <img src={product3} alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -54,10 +62,11 @@ function Products() {
           </div>
         </div>
 
+        {/* المنتج الرابع */}
         <div className="box">
           <span className="discount">-12%</span>
           <div className="image">
-            <img src="/product 4.jpg" alt="Flower" />
+            <img src={product4} alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
