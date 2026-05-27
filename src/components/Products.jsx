@@ -6,11 +6,10 @@ function Products() {
       <h1 className="heading"> Latest <span>Products</span> </h1>
       <div className="box-container">
 
-        {/* المنتج الأول */}
         <div className="box">
           <span className="discount">-10%</span>
           <div className="image">
-            <img src="/product-1.jpeg" alt="Flower" />
+            <img src="public/product-1.jpeg" alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -23,11 +22,10 @@ function Products() {
           </div>
         </div>
 
-        {/* المنتج الثاني */}
         <div className="box">
           <span className="discount">-15%</span>
           <div className="image">
-            <img src="/product-2.jpeg" alt="Flower" />
+            <img src="public/product-2.jpeg" alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -40,11 +38,10 @@ function Products() {
           </div>
         </div>
 
-        {/* المنتج الثالث */}
         <div className="box">
           <span className="discount">-20%</span>
           <div className="image">
-            <img src="/product-3.jpg" alt="Flower" />
+            <img src="public/product-3.jpg" alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
@@ -57,11 +54,10 @@ function Products() {
           </div>
         </div>
 
-        {/* المنتج الرابع */}
         <div className="box">
           <span className="discount">-12%</span>
           <div className="image">
-            <img src="/product-4.jpg" alt="Flower" />
+            <img src="public/product-4.jpg" alt="Flower" />
             <div className="icons">
               <a href="#" className="fas fa-heart"></a>
               <button className="cart-btn">add to cart</button>
