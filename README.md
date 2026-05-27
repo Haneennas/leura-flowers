@@ -2,9 +2,44 @@
 
 A fresh blooms e-commerce frontend built with **React JS + Vite**.
 
-## 📋 Project Description
+---
 
-Leura Flowers is a floral shop web application that allows users to browse flower products, learn about the shop, read customer reviews, and get in touch with the team.
+## 📋 Abstract
+
+Leura Flowers is a floral shop web application that allows users to browse flower products, learn about the shop, read customer reviews, and get in touch with the team. The application is fully responsive and works on both desktop and mobile devices.
+
+---
+
+## 🗂️ System Design
+
+The application is a Single Page Application (SPA) built with React JS. Navigation between pages is handled using React state (no external router needed). Each page is a separate component rendered conditionally based on the current page state.
+
+**Component Structure:**
+```
+App.jsx
+├── Header.jsx       → Navigation bar
+├── Home.jsx         → Landing/hero section
+├── About.jsx        → About the shop + video
+├── Products.jsx     → Product cards with prices
+├── Review.jsx       → Customer testimonials
+├── Contact.jsx      → Contact form + info
+└── Footer.jsx       → Footer
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React JS 18 | Frontend framework |
+| Vite | Build tool and dev server |
+| CSS3 | Custom styling and responsive design |
+| Font Awesome 5 | Icons |
+| Git & GitHub | Version control and hosting |
+| Vercel | Deployment |
+
+---
 
 ## 🚀 Setup Instructions
 
@@ -36,40 +71,29 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 npm run build
 ```
 
-## 📁 Project Structure
-
-```
-leura-flowers/
-├── public/
-│   └── (images: home.png, product 1.jpeg, ...)
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Products.jsx
-│   │   ├── Review.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── vite.config.js
-└── package.json
-```
-
-## 🛠️ Technologies Used
-
-- React JS 18
-- Vite
-- CSS3 (custom, no framework)
-- Font Awesome 5
+---
 
 ## 📄 Pages
 
-- **Home** – Landing page with hero section
-- **About** – Shop story and video
-- **Products** – Flower product cards
-- **Review** – Customer testimonials
-- **Contact** – Contact form and info
+- **Home** – Landing page with hero section and Shop Now button
+- **About** – Shop story, video, and why choose us
+- **Products** – Flower product cards with prices and discounts
+- **Review** – Customer testimonials and star ratings
+- **Contact** – Contact form and shop information
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshot_home.png)
+
+### About Page
+![About Page](screenshot_about.png)
+
+### Products Page
+![Products Page](screenshot_products.png)
+
+### Contact Page
+![Contact Page](screenshot_contact.png)
+
