@@ -1,5 +1,4 @@
 import React from 'react'
-// استدعاء الصور بشكل صحيح وآمن في React
 import product1 from '../../public/product 1.jpeg'
 import product2 from '../../public/product 2.jpeg'
 import product3 from '../../public/product 3.jpg'
@@ -11,7 +10,7 @@ function Products() {
       <h1 className="heading"> Latest <span>Products</span> </h1>
       <div className="box-container">
 
-        {/* المنتج الأول */}
+
         <div className="box">
           <span className="discount">-10%</span>
           <div className="image">
@@ -28,7 +27,6 @@ function Products() {
           </div>
         </div>
 
-        {/* المنتج الثاني */}
         <div className="box">
           <span className="discount">-15%</span>
           <div className="image">
@@ -44,8 +42,7 @@ function Products() {
             <div className="price">$18 <span>$20</span></div>
           </div>
         </div>
-
-        {/* المنتج الثالث */}
+        
         <div className="box">
           <span className="discount">-20%</span>
           <div className="image">
@@ -62,7 +59,6 @@ function Products() {
           </div>
         </div>
 
-        {/* المنتج الرابع */}
         <div className="box">
           <span className="discount">-12%</span>
           <div className="image">
